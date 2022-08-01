@@ -7,6 +7,12 @@ using namespace std;
 
 int main(){
 
+    /*
+    Matriz é a uma estrutura de dados do tipo vetor com duas ou mais dimensões.
+    Os itens de uma matriz tem que ser todos do mesmo tipo de dado.
+    Na prática, as matrizes formam tabelas na memória.
+    */
+
     //Criando uma matriz
     int matriz[2][2];
 
