@@ -27,13 +27,13 @@ int main(){
     string palavra;
 
     //Imprimindo na tela
-    cout << "Digite uma palavra";
+    cout << "Digite uma palavra: ";
 
     //Lendo uma string
     cin >> palavra;
 
     //Imprimindo uma variável
-    cout << "\nA palavra é:" << palavra;
+    cout << "A palavra é " << palavra << "\n";
 
     return 0;
 }

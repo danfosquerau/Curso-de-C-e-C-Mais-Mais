@@ -9,18 +9,18 @@ void main(){
     //iguais entre si para formarem os lados de um triângulo equilátero.
 
     int ladoA, ladoB, ladoC;
-    printf("Digite os 3 valores:");
+    printf("Digite os 3 valores:\n");
     scanf("%d %d %d", &ladoA, &ladoB, &ladoC);
 
     //Analisa se é equilátero
     if( (ladoA == ladoB) && (ladoB == ladoC) ){
-        printf("\nO triângulo é equilátero");
+        printf("O triângulo é equilátero\n");
     }else{
         //Analisa se existem pelo menos dois lados iguais
         if( (ladoA == ladoB) || (ladoB == ladoC) || (ladoC == ladoA)){
-            printf("\nO triângulo é isósceles!");
+            printf("O triângulo é isósceles!\n");
         }else{
-            printf("\nO triângulo é escaleno!");
+            printf("O triângulo é escaleno!\n");
         }
     }
 }

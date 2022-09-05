@@ -8,7 +8,7 @@ void main (){
     //Crie um algoritmo que informe se o número lido é primo ou não
 
     int valor, aux = 1;
-    printf("Digite um número para saber se ele é primo:");
+    printf("Digite um número para saber se ele é primo: ");
     scanf("%d", &valor);
 
     if((valor != 0) && (valor != 1)){
@@ -28,6 +28,7 @@ void main (){
             printf("O número %d é primo!\n", valor);
         }else{
             printf("O número %d não é primo!\n", valor);
+            printf("Os Números Primos são números naturais maiores do que 1 que\npossuem somente dois divisores, ou seja, são divisíveis por 1 e por ele mesmo.\n");
         }
     }else{
         printf("O número %d não é primo!\n", valor);

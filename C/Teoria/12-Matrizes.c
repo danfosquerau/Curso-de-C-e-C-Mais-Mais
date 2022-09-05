@@ -34,7 +34,8 @@ void main(){
     //Lendo valores para a matriz
     for(i = 0; i < 2; i++){
         for(j = 0; j < 2; j++){
-           scanf("%d", &matriz[i][j]);
+            printf("Digite um valor para [%d][%d]: ", i, j);
+            scanf("%d", &matriz[i][j]);
         }
     }
 

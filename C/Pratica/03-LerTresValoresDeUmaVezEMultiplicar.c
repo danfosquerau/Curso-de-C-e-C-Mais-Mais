@@ -11,10 +11,10 @@ void main(){
 
     int valor1, valor2, valor3, resultado;
 
-    printf("Digite as 3 notas:\n");
+    printf("Digite os 3 valores:\n");
     scanf("%d %d %d", &valor1, &valor2, &valor3);
 
     resultado = valor1 * valor2 * valor3;
 
-    printf("O resultado é: %d", resultado);
+    printf("O resultado é %d\n", resultado);
 }

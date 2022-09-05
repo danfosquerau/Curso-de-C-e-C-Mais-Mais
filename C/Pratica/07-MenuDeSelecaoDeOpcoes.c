@@ -30,10 +30,8 @@ void main(){
                 printf("Saindo....\n");
                 break;
             default:
-                printf("\nOpção Inválida!\n");
+                printf("Opção Inválida!\n");
                 break;
         }
     }
-
-    system("pause");
 }

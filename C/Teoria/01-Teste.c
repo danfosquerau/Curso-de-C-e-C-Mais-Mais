@@ -7,5 +7,5 @@
 //Principal função é por onde se incia o programa
 void main(){
     //Imprimir "Hello, World!" na tela
-    printf("Hello, World!");
+    printf("Hello, World!\n");
 }

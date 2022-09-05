@@ -35,7 +35,8 @@ int main(){
     //Lendo valores para a matriz
     for(i = 0; i < 2; i++){
         for(j = 0; j < 2; j++){
-           cin >> matriz[i][j];
+            cout <<"Digite um valor para [" << i << "][" << j << "]: ";
+            cin >> matriz[i][j];
         }
     }
 

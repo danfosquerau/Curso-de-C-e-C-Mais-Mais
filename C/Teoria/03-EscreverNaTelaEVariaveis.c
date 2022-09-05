@@ -30,19 +30,20 @@ void main(){
     //utiliza-se "%d" para variável do tipo int
     printf("%d\n", a);
 
-    //Escreve na tela texto mais o valor da variável
-    printf("O valor da variável é %d\n", a);
+    //Escreve na tela texto e o valor da variável
+    printf("O valor da variável \"a\" é %d\n", a);
 
     int d = 2;
 
     //Adicionando ao texto o valor de mais de uma variável
-    printf("O valor da variável A é %d e da variável D é %d", a, d);
+    printf("O valor da variável \"a\" é %d e da variável \"d\" é %d\n", a, d);
 
     //Ler comando do teclado e atribuir a uma variável
     //Usa-se "&" antes do nome da variável para identificar o
     //endereço de memória utilizada pela variável
+    printf("Digite um número para a variável \"a\": ");
     scanf("%d", &a);
-    printf("O valor da variável mudou para %d\n", a);
+    printf("O valor da variável \"a\" mudou para %d\n", a);
 
 
     //Declaração de variável do tipo float, números quebrados
@@ -53,9 +54,10 @@ void main(){
 
     //Para identificar aonde será ixibido o valor da variável
     //utiliza-se "%f" para variável do tipo float
-    printf("O valor da variável é %f\n", b);
+    printf("O valor da variável \"b\" é %f\n", b);
+    printf("Digite um número para a variável \"b\": ");
     scanf("%f", &b);
-    printf("O valor da variável mudou para %f\n", b);
+    printf("O valor da variável \"b\" mudou para %f\n", b);
 
 
     //Declaração de variável do tipo char, apenas uma letra
@@ -64,11 +66,11 @@ void main(){
 
     //Para identificar aonde será ixibido o valor da variável
     //utiliza-se "%c" para variável do tipo char
-    printf("O conteúdo da variável é %c\n", c);
+    printf("O conteúdo da variável \"c\" é %c\n", c);
 
     //Limpar o buffer, resíduos na memória temporária de leitura
     fflush(stdin);
+    printf("Digite uma letra para a variável \"c\": ");
     scanf("%c", &c);
-    printf("O contéudo da variável mudou para %c\n", c);
-
+    printf("O contéudo da variável \"c\" mudou para %c\n", c);
 }

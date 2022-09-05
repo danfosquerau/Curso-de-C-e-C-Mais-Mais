@@ -10,14 +10,14 @@ void main() {
 
     int tamanho;
 
-    printf("Qual será o tamanho do vetor?");
+    printf("Qual será o tamanho do vetor? ");
     scanf("%d", &tamanho);
 
     float vetor[tamanho], soma;
 
     int i;
     for(i = 0; i < tamanho; i++){
-        printf("Digite um valor:");
+        printf("Digite o %dº valor: ", i+1);
         scanf("%f", &vetor[i]);
         soma = soma + vetor[i];
     }
@@ -26,5 +26,5 @@ void main() {
         printf("vetor[%d] = %.2f\n",i, vetor[i]);
     }
 
-    printf("A média dos valores é: %.2f\n", soma/tamanho);
+    printf("A média dos valores é %.2f\n", soma/tamanho);
 }

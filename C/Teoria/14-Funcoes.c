@@ -43,7 +43,7 @@ void imprimeVetor(int *vetor, int tamanho);
 void modificaVetor(int *vetor, int tamanho);
 
 //Função principal
-int main(){
+void main(){
     setlocale(LC_ALL,"");
 
     /*
@@ -86,6 +86,12 @@ int main(){
 
 
 
+    system("pause");
+
+    limparTela();
+
+
+
 
     //Funções com parâmetros
     printf("Digite um valor: ");
@@ -114,10 +120,6 @@ int main(){
     imprimeVetor(v, 3);
     modificaVetor(v, 3);
     imprimeVetor(v, 3);
-
-
-
-    return 0;
 }
 
 //Na definição é preciso declarar novamente a função
@@ -143,6 +145,8 @@ void limparTela(){
 }
 
 
+
+
 //Funções com parâmetros
 void mostraSucessor(int numero){
     printf("O sucessor de %d é %d\n", numero, numero + 1);
@@ -161,16 +165,20 @@ int retornaComMaisDez(int numero){
 }
 
 
+
+
 //Funções usando ponteiro como parâmetro
 void aumentaDez(int *numero){
     *numero = *numero + 10;
 }
 
 
+
+
 //Funções usando vetores como parâmetro
 void imprimeVetor(int *vetor, int tamanho){
     for(int i = 0; i < tamanho;i++)
-        printf("%d \n",vetor[i]);
+        printf("%d\n",vetor[i]);
 }
 
 void modificaVetor(int *vetor, int tamanho){

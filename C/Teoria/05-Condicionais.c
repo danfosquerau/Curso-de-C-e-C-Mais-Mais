@@ -15,20 +15,20 @@ void main(){
     //Condicional Simples
     //Se o valor é igual que o outro
     if(a == 5){
-        printf("A variável a é igual a 5\n");
+        printf("A variável \"a\" é igual a 5\n");
     }
     if(b == 2.5){
-        printf("A variável b é igual a 2.5\n");
+        printf("A variável \"b\" é igual a 2.5\n");
     }
     if(c == 'x'){
-        printf("A variável c é igual a letra x\n");
+        printf("A variável \"c\" é igual a letra x\n");
     }
 
     //Número par ou impar
     if(a % 2 == 1){
-        printf("A variável a é impar\n");
+        printf("A variável \"a\" é impar\n");
     }else{
-        printf("A variável a é par\n");
+        printf("A variável \"a\" é par\n");
     }
     printf("\n");
 
@@ -122,16 +122,17 @@ void main(){
     //Condicionais de char usando a tabela ASCII
     //Condicional Simples
     if(c == 'x'){
-        printf("A variável c é x\n");
+        printf("A variável \"c\" é x\n");
     }
 
     //Código em ASCII
-    printf("Código da variável c é %d\n", c);
+    printf("Código ASCII da variável \"c\" é %d\n", c);
 
     //Comparando Código ASCII
     if(c == 120){
-         printf("A variável c é x\n");
+         printf("A variável \"c\" é x\n");
     }
+    printf("\n");
 
 
 
@@ -141,23 +142,21 @@ void main(){
     //Conectivo lógico "E" ou "And", sinal utilizado "&&" sem as aspas
     //Apenas é verdadeira se todas as condicionais forem verdadeiras
     if(a > 2 && a < 10){
-        printf("\nA variável 'a' está entre 2 e 10");
+        printf("A variável \"a\" está entre 2 e 10\n");
     }else{
-        printf("\nA variável 'a' não está entre 2 e 10");
+        printf("A variável \"a\" não está entre 2 e 10\n");
     }
 
     //Conectivo lógico "Ou" ou "Or", sinal utilizado "||" sem as aspas
     //Se umas das condicionais for verdadeiras já se torna verdadeiro
     if(a > 2 || a > 10){
-        printf("\nA variável 'a' é maior que 2 ou 10");
+        printf("A variável \"a\" é maior que 2 ou 10\n");
     }else{
-        printf("\nA variável 'a' não é maior que 2 ou 10");
+        printf("A variável \"a\" não é maior que 2 ou 10\n");
     }
 
     //Misturando Conectivos
     if( (a > 2 && a < 10) || a == 20 ){
-        printf("\nA variável 'a' está entre 2 e 10 ou ela vale 20 ");
+        printf("A variável \"a\" está entre 2 e 10 ou ela vale 20\n");
     }
-
-    system("pause");
 }

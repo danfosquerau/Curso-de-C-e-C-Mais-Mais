@@ -19,5 +19,4 @@ void main(){
    //Variável que recebe o resto da divisão do número por 5 (aleatório entre 1 e 5)
    int c = (rand() % 5) + 1;
    printf("%d\n", c);
-
 }

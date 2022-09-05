@@ -20,8 +20,5 @@ void main(){
 
     //Calculando e mostrando resultado final
     resultado = (valor1 + valor2) / 2;
-    printf("A média é: %f", resultado);
-
-    printf("\n");
-    system("pause");
+    printf("A média é %f\n", resultado);
 }

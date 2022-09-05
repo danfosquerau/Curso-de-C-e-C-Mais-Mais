@@ -15,8 +15,5 @@ void main(){
     printf("Insira o 2° valor: ");
     scanf("%d", &valor2);
 
-    printf("A diferença entre os dois valores é: %d", abs(valor1 - valor2) );
-
-    printf("\n");
-    system("pause");
+    printf("A diferença absoluta entre os dois valores é %d\n", abs(valor1 - valor2) );
 }

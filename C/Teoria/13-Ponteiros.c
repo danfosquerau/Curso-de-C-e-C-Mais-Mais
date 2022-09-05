@@ -2,12 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <stdbool.h>
-#include <iostream>
-#include <string>
 
-using namespace std;
-
-int main(){
+void main(){
     setlocale(LC_ALL,"");
 
     /*
@@ -33,6 +29,4 @@ int main(){
 
     //Imprimindo o valor de uma variável
     printf("Valor de \"a\" é %d\n", a);
-
-    return 0;
 }

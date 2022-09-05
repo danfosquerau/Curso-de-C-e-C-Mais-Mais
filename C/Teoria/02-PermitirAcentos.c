@@ -8,5 +8,5 @@ void main(){
     //Altera a liguagem do console para o padrão do windows
     //No caso para o Português
     setlocale(LC_ALL,"");
-    printf("Olá, Mundo!");
+    printf("Olá, Mundo!\n");
 }

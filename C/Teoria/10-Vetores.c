@@ -39,6 +39,7 @@ void main(){
 
     //Lendo 3 valores para o vetor
     for(cont = 0; cont < 3; cont++){
+        printf("Digite um valor para a posição %d: ", cont);
         scanf("%d", &vetor[cont]);
     }
 

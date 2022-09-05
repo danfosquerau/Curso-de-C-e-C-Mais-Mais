@@ -11,25 +11,24 @@ void main(){
 
     float nota1, nota2, nota3, media;
 
-    printf("Digite a nota 1:");
+    printf("Digite a 1º nota: ");
     scanf("%f", &nota1);
 
-    printf("\nDigite a nota 2:");
+    printf("Digite a 2º nota: ");
     scanf("%f", &nota2);
 
-    printf("\nDigite a nota 3:");
+    printf("Digite a 3º nota: ");
     scanf("%f", &nota3);
 
     media = (nota1+nota2+nota3)/3;
 
     //Para limitar quantas casas decimais serão mostradas usa-se
     //"%.0f% onde "0" é a quandidade de casas decimais.
-    printf("\nA média do aluno foi: %.2f", media);
+    printf("A média do aluno foi %.2f\n", media);
 
-    if(media > 7 ){
-        printf("\n\nO aluno foi aprovado! Parabéns campeão!");
+    if(media >= 7 ){
+        printf("O aluno foi aprovado! Parabéns campeão!\n");
     }else{
-        printf("\n\nO aluno foi reprovado! Sinto muito, na próxima você vai conseguir!");
+        printf("O aluno foi reprovado! Sinto muito, na próxima você vai conseguir!\n");
     }
-
 }
